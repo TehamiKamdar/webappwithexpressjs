@@ -1,0 +1,16 @@
+{
+  "name": "webappwithexpressjs",
+  "version": "1.0.0",
+  "description": "Creating Web Application with Express.Js",
+  "license": "ISC",
+  "author": "Tehami",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nnodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
+  }
+}
