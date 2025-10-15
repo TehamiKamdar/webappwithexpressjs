@@ -11,6 +11,7 @@ const logRequest = (req, res, next) =>{
 }
 
 app.use(logRequest)
+app.use(express.static("public"))
 
 app.get('/', (req, res) => {
   const data = {
